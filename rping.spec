@@ -2,7 +2,7 @@
 Summary:	A script for remote pinging from a Cisco router using SNMP
 Name:		rping
 Version:	0.2
-Release:	0.1
+Release:	0.2
 License:	Unknown
 Group:		Networking
 Source0:	http://www.marmoset.net/~knail1/scripts/rping/%{name}-%{version}.tar.gz
@@ -26,7 +26,6 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir}/snmp}
 
 install rping $RPM_BUILD_ROOT%{_bindir}
-install snmptest $RPM_BUILD_ROOT%{_bindir}
 install hostseed $RPM_BUILD_ROOT%{_sysconfdir}/snmp
 
 %clean
