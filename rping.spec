@@ -4,7 +4,7 @@ Summary(pl):	Skrypt do zdalnego pingowania z routerów Cisco przy u¿yciu SNMP
 Name:		rping
 Version:	0.2
 Release:	0.2
-License:	Unknown
+License:	unknown
 Group:		Networking
 Source0:	http://www.marmoset.net/~knail1/scripts/rping/%{name}-%{version}.tar.gz
 # Source0-md5:	fdd6ca4cbd7d528db7f5ff0d89e45f14
