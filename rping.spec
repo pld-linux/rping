@@ -22,7 +22,7 @@ of security or route censoring).
 %description -l pl
 RemotePing to skrypt Perla, który, przy u¿yciu SNMP, zdalnie pinguje
 dany host (lub hosty) z routera Cisco (X), samemu dzia³aj±c na
-komputerze z uniksem (A). Jest to szczególnie pomocne je¶li chcemy
+komputerze z Uniksem (A). Jest to szczególnie pomocne je¶li chcemy
 spingowaæ wiele routerów dostêpowych z jednego routera szkieletowego,
 albo je¶li chcemy spingowaæ maszynê dostêpn± z X, ale nie z A (ze
 wzglêdów bezpieczeñstwa lub cenzury routingu).
