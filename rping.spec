@@ -9,6 +9,7 @@ Group:		Networking
 Source0:	http://www.marmoset.net/~knail1/scripts/rping/%{name}-%{version}.tar.gz
 # Source0-md5:	fdd6ca4cbd7d528db7f5ff0d89e45f14
 URL:		http://www.marmoset.net/~knail1/scripts/rping/rping.html
+BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
