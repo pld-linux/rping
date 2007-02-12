@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A script for remote pinging from a Cisco router using SNMP
-Summary(pl):	Skrypt do zdalnego pingowania z routerów Cisco przy u¿yciu SNMP
+Summary(pl.UTF-8):   Skrypt do zdalnego pingowania z routerÃ³w Cisco przy uÅ¼yciu SNMP
 Name:		rping
 Version:	0.2
 Release:	0.2
@@ -20,13 +20,13 @@ multiple Access Routers from a single Backbone Router, or if you want
 to ping a machine which is accessible from X but not from A (because
 of security or route censoring).
 
-%description -l pl
-RemotePing to skrypt Perla, który, przy u¿yciu SNMP, zdalnie pinguje
-dany host (lub hosty) z routera Cisco (X), samemu dzia³aj±c na
-komputerze z Uniksem (A). Jest to szczególnie pomocne je¶li chcemy
-spingowaæ wiele routerów dostêpowych z jednego routera szkieletowego,
-albo je¶li chcemy spingowaæ maszynê dostêpn± z X, ale nie z A (ze
-wzglêdów bezpieczeñstwa lub cenzury routingu).
+%description -l pl.UTF-8
+RemotePing to skrypt Perla, ktÃ³ry, przy uÅ¼yciu SNMP, zdalnie pinguje
+dany host (lub hosty) z routera Cisco (X), samemu dziaÅ‚ajÄ…c na
+komputerze z Uniksem (A). Jest to szczegÃ³lnie pomocne jeÅ›li chcemy
+spingowaÄ‡ wiele routerÃ³w dostÄ™powych z jednego routera szkieletowego,
+albo jeÅ›li chcemy spingowaÄ‡ maszynÄ™ dostÄ™pnÄ… z X, ale nie z A (ze
+wzglÄ™dÃ³w bezpieczeÅ„stwa lub cenzury routingu).
 
 %prep
 %setup -q -c
