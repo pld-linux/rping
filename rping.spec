@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	A script for remote pinging from a Cisco router using SNMP
 Summary(pl.UTF-8):	Skrypt do zdalnego pingowania z routerów Cisco przy użyciu SNMP
 Name:		rping
